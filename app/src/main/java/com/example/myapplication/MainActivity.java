@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity
 
         Fragment fragment = new InicioFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.content_main, fragment).commit();
+        navigationView.setItemIconTintList(null);
 
     }
 
